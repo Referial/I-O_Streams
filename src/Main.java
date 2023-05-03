@@ -12,7 +12,7 @@ public class Main {
 
         Basket basket = new Basket(products,prices);
 
-        File basketFile = new File("basket.txt");
+        File basketFile = new File("basket.bin");
 
         int n = 1;
         for (int i = 0; i < products.length; i++) {

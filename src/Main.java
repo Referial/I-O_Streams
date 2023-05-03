@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;
 
 public class Main {
@@ -10,6 +11,8 @@ public class Main {
         System.out.println("Список возможных товаров для покупки");
 
         Basket basket = new Basket(products,prices);
+
+        File basketFile = new File("basket.txt");
 
         int n = 1;
         for (int i = 0; i < products.length; i++) {

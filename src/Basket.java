@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Basket {
+public class Basket implements Serializable{
     protected String[] product;
     protected int[] prices;
 
